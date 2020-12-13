@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Modal Window</title>
+</head>
+<body>
+
+<div>
+    <button data-modal class="btn btn_white">Contact us</button>
+</div>
+
+<div class="modal">
+    <div class="modal__dialog">
+        <div class="modal__content">
+            <form action="#">
+                <div class="modal__close" data-close>×</div>
+                <div class="modal__title">We will contact you ASAP</div>
+                <input required placeholder="Your name" name="name" type="text" class="modal__input">
+                <input required placeholder="Your phone number" name="phone" type="phone" class="modal__input">
+                <button class="btn btn_dark btn_min">Call me back!</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
